@@ -9,7 +9,7 @@
     height: 50vh;
     padding: 0,3rem;
     margin-left: -17vw;
-    transition: margin-left 1s;
+    transition: margin-left 1.5s;
 
 }
 .container:hover {
@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 
-.container:hover fa-solid{
+.container:hover .fa-solid {
     transform: rotate(180deg);
 }
 .menu{
@@ -40,6 +40,7 @@ display: inline-block;
 
 .fa-solid{ 
     font-size: 32px;
+    transition: transform 1.5s;
 }
 
 
