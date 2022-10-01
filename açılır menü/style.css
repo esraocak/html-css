@@ -10,7 +10,7 @@
     padding: 0,3rem;
     margin-left: -17vw;
     transition: margin-left 1s;
-    position: absolute;
+
 }
 .container:hover {
     margin-left: 0;
@@ -34,7 +34,8 @@
 .menu i {
 padding:2rem;
 display: inline-block;
-position: relative;
+
+
 }
 
 .fa-solid{ 
