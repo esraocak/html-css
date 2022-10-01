@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    width: 30vw;
+    height: 50vh;
+    padding: 0,3rem;
+    margin-left: -17vw;
+    transition: margin-left 1.5s;
+
+}
+.container:hover {
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.container:hover .fa-solid {
+    transform: rotate(180deg);
+}
+.menu{
+    
+    background-color: rgb(255, 179, 56);
+    text-align: center;
+    
+}
+.menu h1 {
+    display: inline-block;
+    
+}
+
+.menu i {
+padding:2rem;
+display: inline-block;
+
+
+}
+
+.fa-solid{ 
+    font-size: 32px;
+    transition: transform 1.5s;
+}
+
+
+ nav ul { 
+    list-style-type: none;
+    background-color: brown;
+
+ }
+ nav ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+  
+ }
+ nav ul li {
+  padding: 20px;
+  
+ }
